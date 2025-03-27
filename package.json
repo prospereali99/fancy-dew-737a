@@ -39,5 +39,8 @@
     "preview": "opennextjs-cloudflare && wrangler dev",
     "start": "next start",
     "types": "wrangler types --env-interface CloudflareEnv env.d.ts"
+  },
+  "engines": {
+  "node": "18.x"
   }
 }
