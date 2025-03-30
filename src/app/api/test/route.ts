@@ -15,5 +15,5 @@ export async function GET() {
     const MODEL_URL = path.join(__dirname, '/models');
     await faceapi.nets.ssdMobilenetv1.loadFromDisk(MODEL_URL);
     await faceapi.nets.ageGenderNet.loadFromDisk(MODEL_URL);
-  return NextResponse.json({ message: 'Hi Next.js!' });
+  return NextResponse.json({ message: 'Hi Next.js 2!' });
 }
